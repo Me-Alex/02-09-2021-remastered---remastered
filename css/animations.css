@@ -1,0 +1,83 @@
+
+.an{
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: -1000;
+}
+.to-animate {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+}
+
+.to-animate div {
+    display: flex;
+    position: absolute;
+
+}
+.to-animate div img {
+    display: flex;
+    position: absolute;
+
+}
+
+.to-animate div:nth-child(1) {
+    position: absolute !important;
+    left: 20%;
+    animation: animate2 15s linear infinite;
+    animation-delay: -10s;
+}
+
+.to-animate div:nth-child(2) {
+    position: absolute !important;
+
+    left: 70%;
+    animation: animate 15s linear infinite;
+    animation-delay: -1s;
+}
+
+.to-animate div:nth-child(3) {
+    position: absolute !important;
+
+    left: 10%;
+    animation: animate2 20s linear infinite;
+    animation-delay: -4s;
+}
+
+.to-animate div:nth-child(4) {
+    position: absolute !important;
+
+    left: 50%;
+    animation: animate 18s linear infinite;
+    animation-delay: -5s;
+}
+
+.to-animate div:nth-child(5) {
+    position: absolute !important;
+
+    left: 85%;
+    animation: animate2 14s linear infinite;
+    animation-delay: -5s;
+}
+
+.to-animate div:nth-child(6) {
+    position: absolute !important;
+
+    left: 15%;
+    animation: animate 20s linear infinite;
+    animation-delay: -10s;
+}
+
+.to-animate div:nth-child(7) {
+    position: absolute !important;
+
+    left: 90%;
+    animation: animate2 15s linear infinite;
+    animation-delay: -4s;
+}
