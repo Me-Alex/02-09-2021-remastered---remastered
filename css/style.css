@@ -147,7 +147,7 @@ p {
 
 .contact-info h5 {
     text-align: left;
-    color: rgb(0, 0, 0);
+    color: rgb(16 255 68);
 }
 
 .papers-content {
@@ -179,7 +179,9 @@ p {
 .papers h1 {
     color: rgb(102, 102, 102);
 }
-
+.papers p { 
+    padding-left:20px;
+}
 .about {
     max-width: 78%;
     display: flex;

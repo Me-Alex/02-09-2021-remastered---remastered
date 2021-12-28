@@ -45,11 +45,15 @@
     text-align: justify;
     background-color: var(--h1-bg-color);
     border-radius: 20px;
+    font-size:0.9em;
 
 }
 
 .content h1 span {
     color: var(--color-span);
+}
+h5 span{
+    color:tomato;
 }
 .content img{
     width:72%;
