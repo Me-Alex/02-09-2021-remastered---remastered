@@ -1,11 +1,11 @@
 :root{
     --bg-container: rgb(27, 27, 27);
-    --p-color: rgb(0, 0, 0);
+    --p-color: rgb(136 255 162);
     --h5-color: red;
     --h1-bg-color:rgb(0, 0, 0);
     --h1-color: rgb(110, 110, 110);
-    --a-text-color:rgb(110, 110, 110);
-    --a-text-color-hover:rgb(0, 0, 0);
+    --a-text-color:rgb(255, 255, 255);
+    --a-text-color-hover:rgb(20, 223, 189);
     --color-span: rgb(44, 22, 172);
     --text-color: #ffffff;
     --button-color-text: rgb(110, 110, 110);
@@ -15,4 +15,5 @@
     --button-color-bg: rgb(253, 154, 154);
     --button-color-bg-hover: rgb(139, 35, 35);
     --footer-color:midnightblue;
+    --color:white;
 }   

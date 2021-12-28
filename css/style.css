@@ -2,10 +2,11 @@ html {
     max-width:4000px;
     width: 100vw;
     overflow-x: hidden;
+    background-image:url("../img/rough-colored-background.jpg");
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial;
     max-width:4000px;
     display: flex;
     width: 100vw;
@@ -24,12 +25,15 @@ body .an {
 a {
     color: var(--a-text-color);
     text-align: center;
+    font-size: 0.7em;
 }
 
 a:hover {
     color: var(--a-text-color-hover);
 }
-
+p{
+    font-size: 0.8em;
+}
 img {
     width: 100px;
     height: auto;
@@ -156,6 +160,7 @@ p {
     align-items: center;
     text-align: center;
     /* padding: 20px; */
+    font-size:0.8em;
 }
 
 .papers {
@@ -286,12 +291,12 @@ footer div h1 {
     flex-direction: row;
     gap: 15%;
 }
-.header a {
+/* .header a {
     color:rgb(0, 0, 0);
-}
-.header a:hover{
+} */
+/* .header a:hover{
     color:red;
-}
+} */
 .header nav {
     display: flex;
     justify-content: center;
@@ -339,4 +344,22 @@ footer div h1 {
 }
 .center{
     text-align:center;
+}
+.right-side h1{
+     background-color:transparent !important;
+     color:var(--color);
+     font-size:1.5em !important;
+}
+.right-side p{
+    padding-left:20px;
+    margin:0;
+}
+.transparent-bg{
+    background-color:transparent !important;
+}
+.change-color{
+    color:var(--color) !important;
+}
+.font-size-1em{
+    font-size:1em !important;
 }
